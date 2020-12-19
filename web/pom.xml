@@ -16,6 +16,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>library-repository</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
