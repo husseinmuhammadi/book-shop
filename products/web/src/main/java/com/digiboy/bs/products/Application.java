@@ -1,4 +1,4 @@
-package com.toranj.fintech.books;
+package com.digiboy.bs.products;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

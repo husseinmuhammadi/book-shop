@@ -1,4 +1,4 @@
-package com.toranj.fintech.books;
+package com.digiboy.bs.products;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
