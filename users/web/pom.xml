@@ -5,17 +5,24 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>user-parent</artifactId>
-        <groupId>com.digiboy.bs.user</groupId>
+        <groupId>com.digiboy.bs.users</groupId>
+        <artifactId>users-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>user-web</artifactId>
+    <artifactId>users-web</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.digiboy.bs</groupId>
+            <artifactId>bs-logger</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>runtime</scope>
         </dependency>
     </dependencies>
 
